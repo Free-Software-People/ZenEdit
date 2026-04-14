@@ -1,6 +1,6 @@
 # ZenEdit
 
-A simple text editor that is beautiful in its simpleness.
+A simple text editor that has all the features you need without being in your face.
 
 ## Features
 - Minimalist, distraction-free interface.

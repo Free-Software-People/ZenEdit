@@ -16,12 +16,16 @@ private slots:
     void openFile();
     void saveFile();
     void saveAsFile();
+    void undo();
+    void redo();
+    void revertFile();
 
 private:
     QTextEdit *editor;
     QString currentFile;
     void applyStyle();
     void createMenus();
+    void createEditMenu();
 };
 
 #endif // ZENEDIT_H

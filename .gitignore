@@ -1,6 +1,11 @@
 # Prerequisites
 *.d
 
+# Build directories
+build/
+bin/
+obj/
+
 # Compiled Object files
 *.slo
 *.lo
@@ -39,3 +44,18 @@
 
 # debug information files
 *.dwo
+
+# IDEs and editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Qt generated files
+*.moc
+*.ui
+*.qrc
+
+# OS generated files
+.DS_Store
+thumbs.db
